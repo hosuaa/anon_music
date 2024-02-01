@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#pin-form {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
