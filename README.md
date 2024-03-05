@@ -1,16 +1,16 @@
-setup:
-sudo apt update
-sudo apt install nodejs
-sudo apt install npm
-sudo apt install mongo OR install mongodb some other way
+setup:<br/>
+sudo apt update<br/>
+sudo apt install nodejs<br/>
+sudo apt install npm<br/>
+sudo apt install mongo OR install mongodb some other way<br/>
 
-npm init -y
+npm init -y<br/>
 
-npm install express leaflet
-npm install passport passport-local express-session body-parser
-npm install mongoose bcrypt
-npm install express-session connect-flash
+npm install express leaflet<br/>
+npm install passport passport-local express-session body-parser<br/>
+npm install mongoose bcrypt<br/>
+npm install express-session connect-flash<br/>
 
-To run:
-mongod (for database in seperate terminal)
-node server.js (then goto http://localhost:3000)
+To run:<br/>
+mongod (for database in seperate terminal)<br/>
+node server.js (then goto http://localhost:3000)<br/>
