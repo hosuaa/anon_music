@@ -4,12 +4,15 @@ body {
 }
 
 #map {
+    top: 70px;
     width: 100vw;
     height: 100vh;
     position: absolute;
+    transition: margin-left 0.5s; /* Add transition for smooth movement */
 }
 
 #pin-form {
+    display: none; /* Initially hide the pin form. prob dont need to show it */
     position: absolute;
     top: 10px;
     left: 10px;
